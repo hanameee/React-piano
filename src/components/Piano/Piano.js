@@ -5,7 +5,7 @@ import styles from './Piano.module.css'
 const piano = (props) => {
     return (
         <div className = {styles.Piano}>
-            <Display>음이름</Display>
+            <Display>Cm</Display>
             <Keyboard/>
         </div>
     )

@@ -1,19 +1,19 @@
-import React, {Component} from 'react';
-import Piano from '../../components/Piano/Piano'
-import styles from './PianoController.module.css'
+import React, { Component, Fragment } from "react";
+import Piano from "../../components/Piano/Piano";
+import Cockpit from "../../components/Cockpit/Cockpit";
+import styles from "./PianoController.module.css";
 class PianoController extends Component {
-    state = {
-
-    };
+    state = {};
 
     render() {
         return (
-            <div className = {styles.PianoController}>
+            <div className={styles.PianoController}>
                 <h1>This is PianoController</h1>
-                <Piano/>
+                <Cockpit />
+                <Piano />
             </div>
         );
     }
 }
 
-export default PianoController
+export default PianoController;
