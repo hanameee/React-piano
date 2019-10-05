@@ -1,0 +1,8 @@
+.Piano {
+    margin: auto;
+    background-color: black;
+    color: white;
+    width: 800px;
+    padding: 10px;
+    border: 5px solid gray;
+}
