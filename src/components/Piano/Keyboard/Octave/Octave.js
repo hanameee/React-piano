@@ -1,9 +1,10 @@
 import React from 'react'
 import Key from './Key/Key'
+import styles from './Octave.module.css'
 
 const Octave = (props) => {
     return (
-        <React.Fragment>
+        <div className={styles.Octave}>
             <Key color="White" pitch="C" />
             <Key color="Black" pitch="C-sharp" />
             <Key color="White" pitch="D" />
@@ -16,7 +17,7 @@ const Octave = (props) => {
             <Key color="White" pitch="A" />
             <Key color="Black" pitch="A-sharp" />
             <Key color="White" pitch="B" />
-        </React.Fragment>
+        </div>
     )
 }
 
