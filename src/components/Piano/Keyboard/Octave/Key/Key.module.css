@@ -1,0 +1,75 @@
+.White {
+    z-index: 0;
+    background-color: white;
+    width: 30px;
+    height: 90px;
+}
+
+.Black {
+    z-index: 1;
+    background-color: black;
+    width: 20px;
+    height: 60px;
+}
+
+.White .Click {
+    background-color: lightcoral;
+    transform-origin: center top;
+    transform:scaleX(90%);
+    transform:scaleY(90%); 
+}
+
+.Black .Click {
+    background-color: crimson;
+    transform-origin: center top;
+    transform:scaleX(90%);
+    transform:scaleY(90%); 
+}
+
+.C {
+    left: 0px;
+}
+
+.D {
+    left: 32px;
+}
+
+.E {
+    left: 64px;
+}
+
+.F {
+    left: 96px;
+}
+
+.G {
+    left: 128px;
+}
+
+.A {
+    left: 160px;
+}
+
+.B {
+    left: 192px;
+}
+
+.C-sharp {
+    left: 21px;
+}
+
+.D-sharp {
+    left: 53px;
+}
+
+.F-sharp {
+    left: 117px;
+}
+
+.G-sharp {
+    left: 150px;
+}
+
+.A-sharp {
+    left: 186px;
+}
