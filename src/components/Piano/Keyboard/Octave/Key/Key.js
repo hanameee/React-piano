@@ -4,7 +4,7 @@ import styles from './Key.module.css'
 const Key = (props) => {
     const color = props.color
     const pitch = props.pitch
-    const classes = [styles[color], styles[pitch]].join(" ")
+    const classes = [styles.Key, styles[color], styles[pitch]].join(" ")
     return (
         <div className={classes} >
         </div >
